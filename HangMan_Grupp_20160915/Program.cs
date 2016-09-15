@@ -119,10 +119,8 @@ namespace HangMan_Grupp_20160915
                     switch (againOrNot.ToUpper())
                     {
                         case "Y":
-                            //EnterYourName();
-                            //DifficultyLevel();
                             Console.Clear();
-                            GameEngine();
+                            DifficultyLevel();
                             break;
                         case "N":
                             Console.Clear();
