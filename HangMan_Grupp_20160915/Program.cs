@@ -113,7 +113,7 @@ namespace HangMan_Grupp_20160915
                     Console.WriteLine("Congratulations, " + yourName + "! " + "Your guess was correct. The answer is " + wordToGuess + "!");
                     isInputWord = false;
                     Console.WriteLine();
-                    Console.Write("Would you play again? (Y/N)");
+                    Console.Write("Would you play again? (Y/N): ");
                     string againOrNot = Console.ReadLine();
 
                     switch (againOrNot.ToUpper())
